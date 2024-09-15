@@ -1,4 +1,6 @@
 import fullXernIcon from './assets/FullLogo_Transparent_NoBuffer.png'
+import xernIcon from './assets/fullI_icon_nospace.png';
+
 
 function Intro(){
     

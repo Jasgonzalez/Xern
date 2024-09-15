@@ -1,7 +1,10 @@
 body {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   margin: 0;
   padding: 0;
-  background-image: url('./assets/Background-xern.png'); /* Adjust the path to the image */
+  background-image: url('./assets/bqckground1.png'); /* Adjust the path to the image */
   background-size: cover; /* Ensure the image covers the entire viewport */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent the background from repeating */
