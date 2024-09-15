@@ -1,9 +1,8 @@
+import xernIcon from './assets/fullI_icon_nospace.png';
 
-function Header(){
-
-    return(
+function Header() {
+    return (
         <header>
-            <h1>My website</h1>
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -12,9 +11,8 @@ function Header(){
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <hr />
         </header>
     );
 }
 
-export default Header
+export default Header;

@@ -1,4 +1,102 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center; /* Vertically center all items */
+  place-content: center;
+  background: linear-gradient(to right, #001f3f, #011627); /* Dark blue gradient */
+}
+
+nav {
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  padding: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff; /* White text */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+  
+}
+
+.Full-logo{
+  height: 450px;
+}
+
+.intro-container {
+  height: 100vh; /* Make this section take up the full viewport height */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+
+.intro{
+}
+
+.button{
+  padding-top: 4rem;
+  display: flex;
+  place-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: 1rem;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+button:hover{
+  background-color: rgb(126, 126, 154);
+}
+
+.about-conatiner{
+  height: 50vh;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.about{
+  padding: 2rem;
+  text-align: center; 
+  background-color: orange; 
+  border-radius: 100rem;
+
+}
+
 

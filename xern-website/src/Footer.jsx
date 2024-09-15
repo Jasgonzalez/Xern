@@ -2,7 +2,7 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} your website name</p>
+            <p>&copy; {new Date().getFullYear()} Xern</p>
         </footer>
     );
 
