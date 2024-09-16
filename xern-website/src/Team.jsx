@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import jason from './assets/jason-photo.jpg'; // Replace with actual paths
+import jason from './assets/jason-photo.jpg'; 
 import karan from './assets/karan-photo.jpg';
 import abdelilah from './assets/abdelilah-photo.jpg';
 
@@ -8,7 +8,7 @@ function Team() {
         {
             name: "Jason Gonzalez",
             image: jason,
-            description: "Lead Developer", 
+            description: "CEO/Lead Developer", 
             socials: [
                 { platform: "LinkedIn", url: "https://linkedin.com/in/jason" },
                 { platform: "Twitter", url: "https://twitter.com/jason" },
@@ -17,7 +17,7 @@ function Team() {
         {
             name: "Karan Patel",
             image: karan,
-            description: "UI/UX Designer",
+            description: "Janitor",
             socials: [
                 { platform: "LinkedIn", url: "https://linkedin.com/in/karan" },
                 { platform: "Instagram", url: "https://instagram.com/karan" },
@@ -26,7 +26,7 @@ function Team() {
         {
             name: "Abdelilah Hanim",
             image: abdelilah,
-            description: "Project Manager",
+            description: "Janitor Assistant",
             socials: [
                 { platform: "LinkedIn", url: "https://linkedin.com/in/abdelilah" },
                 { platform: "Facebook", url: "https://facebook.com/abdelilah" },
