@@ -1,14 +1,12 @@
 body {
   font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  height: 100%;
+}
+
+* {
   margin: 0;
   padding: 0;
-  background-image: url('./assets/bqckground1.png'); /* Adjust the path to the image */
-  background-size: cover; /* Ensure the image covers the entire viewport */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the background from repeating */
-  background-attachment: fixed; /* Optional: keeps the background fixed during scrolling */
-  color: #ffffff; /* Example: sets the text color to white for contrast */
-
+  box-sizing: border-box;
 }
+

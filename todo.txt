@@ -1,0 +1,7 @@
+Jason --
+Make it look nice/responsiveness
+
+Karan --
+Find out how to create the contact form and get it to send to a business email.
+Find out how to use SQL for data base if needed. 
+About Me page and link. (maybe)

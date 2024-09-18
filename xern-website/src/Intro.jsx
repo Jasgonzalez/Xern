@@ -1,23 +1,20 @@
-import fullXernIcon from './assets/FullLogo_Transparent_NoBuffer.png'
-import xernIcon from './assets/fullI_icon_nospace.png';
-
 
 function Intro(){
-    
-    return ( 
-    
-            <div className="intro-container">
-                <div className="intro">
-                    <img className='Full-logo' src={fullXernIcon} alt="Full-logo" />
-                </div>
-                <div className="button">
-                <button><a href="">Contact Us</a></button>
+    return(
+
+        <section className="intro-container">
+            <div className="intro">
+                <h1>XERN</h1>
+                <h2>WEBSITE DEVELOPERS, GAME DEVELOPERS AND IOS APPLICATIONS</h2>
+                <button>Contact Us</button>
             </div>
-            </div>
-           
-            
-       
+        </section>
+
+
+
     );
+
+
 }
 
 export default Intro;

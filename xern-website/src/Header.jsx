@@ -1,22 +1,19 @@
 import xernIcon from './assets/fullI_icon_nospace.png';
 
-
 function Header() {
     return (
-        <header>
-            <div className='name-conatiner' >
-            <h1 className='companyName' >XERN</h1>
-            </div>
+        <section className="nav-container">
             <nav>
+                <img className='logo' src={xernIcon} alt="XERN Icon" />
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-    );
+        </section>
+    )
 }
 
 export default Header;
